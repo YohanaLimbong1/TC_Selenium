@@ -1,0 +1,1599 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-13T08:09:44.682Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4158000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Access Twitty website",
+        "description": "",
+        "id": "login-twitty;access-twitty-website",
+        "after": [
+          {
+            "result": {
+              "duration": 811000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5377000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user access page \"http://sauron.dev.commsult.id/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://sauron.dev.commsult.id/\"",
+                  "offset": 17
+                }
+              ],
+              "location": "steps.HomeSteps.user_access_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@accWebsiteTw"
+          },
+          {
+            "name": "@twitty"
+          }
+        ]
+      }
+    ],
+    "name": "Login twitty",
+    "description": "",
+    "id": "login-twitty",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/accWebsiteTw.feature",
+    "tags": [
+      {
+        "name": "@accWebsiteTw",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@twitty",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 15
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-13T08:09:55.059Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1873000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Negative case check user login with invalid data",
+        "description": "",
+        "id": "login-twitty;negative-case-check-user-login-with-invalid-data",
+        "after": [
+          {
+            "result": {
+              "duration": 817000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6073000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user access page \"http://sauron.dev.commsult.id/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://sauron.dev.commsult.id/\"",
+                  "offset": 17
+                }
+              ],
+              "location": "steps.HomeSteps.user_access_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1404000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click on twitty sign up button on main page",
+            "match": {
+              "location": "steps.HomeSteps.user_click_on_twitty_sign_up_button_on_main_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 447000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user input on twitty signup username \"yohanalimbong1@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yohanalimbong1@gmail.com\"",
+                  "offset": 37
+                }
+              ],
+              "location": "steps.SignupSteps.userInputOnTwittySignupUsername(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 330000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user input on twitty signup Password \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12345\"",
+                  "offset": 37
+                }
+              ],
+              "location": "steps.SignupSteps.userInputOnTwittySignupPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 405000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user input on twitty signup Phone \"082274027988\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"082274027988\"",
+                  "offset": 34
+                }
+              ],
+              "location": "steps.SignupSteps.userInpuOntTwittySignPhone(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1195000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user select on twityy signup date Month of birth",
+            "match": {
+              "location": "steps.SignupSteps.userSelectOnTwityySignupDateMonthOfBirth()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1184000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user select on twityy signup date day  of birth",
+            "match": {
+              "location": "steps.SignupSteps.userSelectOnTwityySignupDateDayOfBirth()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1196000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user select on twityy signup date Year  of birth",
+            "match": {
+              "location": "steps.SignupSteps.userSelectOnTwityySignupDateYearOfBirth()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1221000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click on twitty Next button",
+            "match": {
+              "location": "steps.SignupSteps.userClickOnTwittyNextButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 375000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user input on twitty login username \"christianolubis@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"christianolubis@gmail.com\"",
+                  "offset": 36
+                }
+              ],
+              "location": "steps.LoginSteps.userInputOnTwittyLoginUsername(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 287000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user input on twityy login password \"ronaldo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ronaldo\"",
+                  "offset": 36
+                }
+              ],
+              "location": "steps.LoginSteps.userInputOnTwityyLoginPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1206000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user click on twitty Login button",
+            "match": {
+              "location": "steps.LoginSteps.userClickOnTwittyLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "system display twitty login alert box is \"Wrong credentials\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Wrong credentials\"",
+                  "offset": 41
+                }
+              ],
+              "location": "steps.LoginSteps.systemDisplayTwittyLoginAlertBoxIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@loginInvalid"
+          },
+          {
+            "name": "@twitty"
+          }
+        ]
+      }
+    ],
+    "name": "Login twitty",
+    "description": "",
+    "id": "login-twitty",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/loginInvalid.feature",
+    "tags": [
+      {
+        "name": "@loginInvalid",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@twitty",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 15
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-13T08:10:13.209Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1824000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Positive case Check user login with created data through sign up",
+        "description": "",
+        "id": "login-twitty;positive-case-check-user-login-with-created-data-through-sign-up",
+        "after": [
+          {
+            "result": {
+              "duration": 831000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5845000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user access page \"http://sauron.dev.commsult.id/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://sauron.dev.commsult.id/\"",
+                  "offset": 17
+                }
+              ],
+              "location": "steps.HomeSteps.user_access_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1350000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click on twitty sign up button on main page",
+            "match": {
+              "location": "steps.HomeSteps.user_click_on_twitty_sign_up_button_on_main_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 429000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user input on twitty signup username \"yohanalimbong1@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yohanalimbong1@gmail.com\"",
+                  "offset": 37
+                }
+              ],
+              "location": "steps.SignupSteps.userInputOnTwittySignupUsername(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 340000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user input on twitty signup Password \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12345\"",
+                  "offset": 37
+                }
+              ],
+              "location": "steps.SignupSteps.userInputOnTwittySignupPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 389000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user input on twitty signup Phone \"082274027988\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"082274027988\"",
+                  "offset": 34
+                }
+              ],
+              "location": "steps.SignupSteps.userInpuOntTwittySignPhone(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1202000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user select on twityy signup date Month of birth",
+            "match": {
+              "location": "steps.SignupSteps.userSelectOnTwityySignupDateMonthOfBirth()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1194000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user select on twityy signup date day  of birth",
+            "match": {
+              "location": "steps.SignupSteps.userSelectOnTwityySignupDateDayOfBirth()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1191000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user select on twityy signup date Year  of birth",
+            "match": {
+              "location": "steps.SignupSteps.userSelectOnTwityySignupDateYearOfBirth()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1246000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click on twitty Next button",
+            "match": {
+              "location": "steps.SignupSteps.userClickOnTwittyNextButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 347000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user input on twitty login username \"yohanalimbong1@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yohanalimbong1@gmail.com\"",
+                  "offset": 36
+                }
+              ],
+              "location": "steps.LoginSteps.userInputOnTwittyLoginUsername(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 287000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user input on twityy login password \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12345\"",
+                  "offset": 36
+                }
+              ],
+              "location": "steps.LoginSteps.userInputOnTwityyLoginPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1519000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user click on twitty Login button",
+            "match": {
+              "location": "steps.LoginSteps.userClickOnTwittyLoginButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1361000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user click on twitty homepage button tweet",
+            "match": {
+              "location": "steps.LoginSteps.userClickOnTwittyHomepageButtonTweet()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@loginValid"
+          },
+          {
+            "name": "@twitty"
+          }
+        ]
+      }
+    ],
+    "name": "Login twitty",
+    "description": "",
+    "id": "login-twitty",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/loginValid.feature",
+    "tags": [
+      {
+        "name": "@loginValid",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@twitty",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 13
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-13T08:10:32.576Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1839000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Negative case sign up for Twitty with invalid data",
+        "description": "",
+        "id": "signup-twitty;negative-case-sign-up-for-twitty-with-invalid-data",
+        "after": [
+          {
+            "result": {
+              "duration": 823000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6259000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user access page \"http://sauron.dev.commsult.id/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://sauron.dev.commsult.id/\"",
+                  "offset": 17
+                }
+              ],
+              "location": "steps.HomeSteps.user_access_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1358000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click on twitty sign up button on main page",
+            "match": {
+              "location": "steps.HomeSteps.user_click_on_twitty_sign_up_button_on_main_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 444000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user input on twitty signup username \"yohanalimbong1@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yohanalimbong1@gmail.com\"",
+                  "offset": 37
+                }
+              ],
+              "location": "steps.SignupSteps.userInputOnTwittySignupUsername(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 287000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user input on twitty signup Password \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12345\"",
+                  "offset": 37
+                }
+              ],
+              "location": "steps.SignupSteps.userInputOnTwittySignupPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user see Next Button is disable",
+            "match": {
+              "location": "steps.SignupSteps.userSeeNextButtonIsDisable()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@signupInvalid"
+          },
+          {
+            "name": "@twitty"
+          }
+        ]
+      }
+    ],
+    "name": "Signup twitty",
+    "description": "",
+    "id": "signup-twitty",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/signupInvalid.feature",
+    "tags": [
+      {
+        "name": "@signupInvalid",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@twitty",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 16
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-13T08:10:43.667Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1782000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Positive case sign up for Twitty with valid data",
+        "description": "",
+        "id": "signup-twitty;positive-case-sign-up-for-twitty-with-valid-data",
+        "after": [
+          {
+            "result": {
+              "duration": 832000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5482000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user access page \"http://sauron.dev.commsult.id/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://sauron.dev.commsult.id/\"",
+                  "offset": 17
+                }
+              ],
+              "location": "steps.HomeSteps.user_access_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1295000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click on twitty sign up button on main page",
+            "match": {
+              "location": "steps.HomeSteps.user_click_on_twitty_sign_up_button_on_main_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 403000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user input on twitty signup username \"yohanalimbong1@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yohanalimbong1@gmail.com\"",
+                  "offset": 37
+                }
+              ],
+              "location": "steps.SignupSteps.userInputOnTwittySignupUsername(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 261000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user input on twitty signup Password \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12345\"",
+                  "offset": 37
+                }
+              ],
+              "location": "steps.SignupSteps.userInputOnTwittySignupPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 313000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user input on twitty signup Phone \"082274027988\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"082274027988\"",
+                  "offset": 34
+                }
+              ],
+              "location": "steps.SignupSteps.userInpuOntTwittySignPhone(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1168000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user select on twityy signup date Month of birth",
+            "match": {
+              "location": "steps.SignupSteps.userSelectOnTwityySignupDateMonthOfBirth()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1185000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user select on twityy signup date day  of birth",
+            "match": {
+              "location": "steps.SignupSteps.userSelectOnTwityySignupDateDayOfBirth()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1192000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user select on twityy signup date Year  of birth",
+            "match": {
+              "location": "steps.SignupSteps.userSelectOnTwityySignupDateYearOfBirth()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1216000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click on twitty Next button",
+            "match": {
+              "location": "steps.SignupSteps.userClickOnTwittyNextButton()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@signupValid"
+          },
+          {
+            "name": "@twitty"
+          }
+        ]
+      }
+    ],
+    "name": "Signup twitty",
+    "description": "",
+    "id": "signup-twitty",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/signupValid.feature",
+    "tags": [
+      {
+        "name": "@signupValid",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@twitty",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 14
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-13T08:10:58.814Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1839000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Create new Tweet with more data selection",
+        "description": "",
+        "id": "button-tweet-twitty;create-new-tweet-with-more-data-selection",
+        "after": [
+          {
+            "embeddings": [
+              {
+                "data": "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",
+                "mime_type": "image/png",
+                "name": "Create new Tweet with more data selection"
+              }
+            ],
+            "result": {
+              "duration": 903000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5647000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user access page \"http://sauron.dev.commsult.id/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://sauron.dev.commsult.id/\"",
+                  "offset": 17
+                }
+              ],
+              "location": "steps.HomeSteps.user_access_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1245000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click on login button on main page",
+            "match": {
+              "location": "steps.TweetDataSteps.userClickOnLoginButtonOnMainPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 346000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user input on twitty login username \"yohanalimbong12@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yohanalimbong12@gmail.com\"",
+                  "offset": 36
+                }
+              ],
+              "location": "steps.LoginSteps.userInputOnTwittyLoginUsername(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 255000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user input on twityy login password \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12345\"",
+                  "offset": 36
+                }
+              ],
+              "location": "steps.LoginSteps.userInputOnTwityyLoginPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1256000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click on twitty Login button",
+            "match": {
+              "location": "steps.LoginSteps.userClickOnTwittyLoginButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: AjaxElementLocator \u0027By.xpath: //*[@class\u003d\u0027btn btn-primary rounded-pill font-weight-bold w-100 border-0 default-button\u0027]\u0027 (tried for 60 second(s) with 500 MILLISECONDS interval)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)\r\n\tat utilities.SeleniumHelpers.waitTillElementIsClickable(SeleniumHelpers.java:59)\r\n\tat utilities.SeleniumHelpers.clickOn(SeleniumHelpers.java:150)\r\n\tat pageobject.LoginPagePO.clickOnTweetButon(LoginPagePO.java:51)\r\n\tat steps.LoginSteps.userClickOnTwittyHomepageButtonTweet(LoginSteps.java:35)\r\n\tat ✽.user click on twitty homepage button tweet(file:///D:/KULIAH/Quality%20Assurance/test_commsult/src/test/resources/features/twMoreDtSelection.feature:10)\r\nCaused by: org.openqa.selenium.NoSuchElementException: Timed out after 60 seconds. Unable to locate the element\r\n\tat org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:91)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy21.isDisplayed(Unknown Source)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:301)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:43)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:284)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:672)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:668)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)\r\n\tat utilities.SeleniumHelpers.waitTillElementIsClickable(SeleniumHelpers.java:59)\r\n\tat utilities.SeleniumHelpers.clickOn(SeleniumHelpers.java:150)\r\n\tat pageobject.LoginPagePO.clickOnTweetButon(LoginPagePO.java:51)\r\n\tat steps.LoginSteps.userClickOnTwittyHomepageButtonTweet(LoginSteps.java:35)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:27)\r\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:27)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:49)\r\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:46)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:51)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:66)\r\n\tat io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:120)\r\n\tat io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:29)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)\r\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\r\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\r\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\r\n\tat java.util.ArrayList.forEach(ArrayList.java:1257)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:766)\r\n\tat org.testng.TestRunner.run(TestRunner.java:587)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:384)\r\n\tat org.testng.SuiteRunner.access$000(SuiteRunner.java:28)\r\n\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)\r\n\tat org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:748)\r\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@class\u003d\u0027btn btn-primary rounded-pill font-weight-bold w-100 border-0 default-button\u0027]\"}\n  (Session info: chrome\u003d96.0.4664.93)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-T6L8DC9\u0027, ip: \u0027192.168.235.117\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 7b0bb32902ba3c8c6ac8ee9a5fca1e0e\n*** Element info: {Using\u003dxpath, value\u003d//*[@class\u003d\u0027btn btn-primary rounded-pill font-weight-bold w-100 border-0 default-button\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$001(AjaxElementLocator.java:41)\r\n\tat org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:157)\r\n\tat org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:87)\r\n\t... 50 more\r\n",
+              "duration": 147577000000,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "user click on twitty homepage button tweet",
+            "match": {
+              "location": "steps.LoginSteps.userClickOnTwittyHomepageButtonTweet()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user see tweet Button is disable",
+            "match": {
+              "location": "steps.TweetDataSteps.userSeeTweetButtonIsDisable()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user input on twitty homepage what\u0027s happening \"I love Indonesia 2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"I love Indonesia 2\"",
+                  "offset": 47
+                }
+              ],
+              "location": "steps.TweetDataSteps.userInputOnTwittyHomepageWhatSHappening(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user click on twitty homepage button Entertainment",
+            "match": {
+              "location": "steps.TweetDataSteps.userClickOnTwittyHomepageButtonEntertainment()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user click on twitty homepage button Ads",
+            "match": {
+              "location": "steps.TweetDataSteps.userClickOnTwittyHomepageButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user click on twitty homepage button Commercial",
+            "match": {
+              "location": "steps.TweetDataSteps.userClickOnTwittyHomepageButtonCommercial()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user click on tweet Button",
+            "match": {
+              "location": "steps.TweetDataSteps.userClickOnTweetButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user click on twitty homepage button tweet",
+            "match": {
+              "location": "steps.LoginSteps.userClickOnTwittyHomepageButtonTweet()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@twMoreDtSelection"
+          },
+          {
+            "name": "@twitty"
+          }
+        ]
+      }
+    ],
+    "name": "Button tweet twitty",
+    "description": "",
+    "id": "button-tweet-twitty",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/twMoreDtSelection.feature",
+    "tags": [
+      {
+        "name": "@twMoreDtSelection",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@twitty",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 20
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-13T08:13:37.920Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2088000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Create new Tweet with no data",
+        "description": "",
+        "id": "button-tweet-twitty;create-new-tweet-with-no-data",
+        "after": [
+          {
+            "result": {
+              "duration": 836000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4812000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user access page \"http://sauron.dev.commsult.id/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://sauron.dev.commsult.id/\"",
+                  "offset": 17
+                }
+              ],
+              "location": "steps.HomeSteps.user_access_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1257000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click on login button on main page",
+            "match": {
+              "location": "steps.TweetDataSteps.userClickOnLoginButtonOnMainPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 422000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user input on twitty login username \"yohanalimbong1@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yohanalimbong1@gmail.com\"",
+                  "offset": 36
+                }
+              ],
+              "location": "steps.LoginSteps.userInputOnTwittyLoginUsername(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 292000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user input on twityy login password \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12345\"",
+                  "offset": 36
+                }
+              ],
+              "location": "steps.LoginSteps.userInputOnTwityyLoginPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1317000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click on twitty Login button",
+            "match": {
+              "location": "steps.LoginSteps.userClickOnTwittyLoginButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1902000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click on twitty homepage button tweet",
+            "match": {
+              "location": "steps.LoginSteps.userClickOnTwittyHomepageButtonTweet()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user see tweet Button is disable",
+            "match": {
+              "location": "steps.TweetDataSteps.userSeeTweetButtonIsDisable()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tweetNoData"
+          },
+          {
+            "name": "@twitty"
+          }
+        ]
+      }
+    ],
+    "name": "Button tweet twitty",
+    "description": "",
+    "id": "button-tweet-twitty",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/tweetNoData.feature",
+    "tags": [
+      {
+        "name": "@tweetNoData",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@twitty",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 14
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-13T08:13:50.908Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1965000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Create new Tweet with data",
+        "description": "",
+        "id": "button-tweet-twitty;create-new-tweet-with-data",
+        "after": [
+          {
+            "result": {
+              "duration": 955000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5381000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user access page \"http://sauron.dev.commsult.id/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://sauron.dev.commsult.id/\"",
+                  "offset": 17
+                }
+              ],
+              "location": "steps.HomeSteps.user_access_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1261000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click on login button on main page",
+            "match": {
+              "location": "steps.TweetDataSteps.userClickOnLoginButtonOnMainPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 332000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user input on twitty login username \"yohanalimbong1@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yohanalimbong1@gmail.com\"",
+                  "offset": 36
+                }
+              ],
+              "location": "steps.LoginSteps.userInputOnTwittyLoginUsername(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 279000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user input on twityy login password \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12345\"",
+                  "offset": 36
+                }
+              ],
+              "location": "steps.LoginSteps.userInputOnTwityyLoginPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1456000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click on twitty Login button",
+            "match": {
+              "location": "steps.LoginSteps.userClickOnTwittyLoginButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2193000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click on twitty homepage button tweet",
+            "match": {
+              "location": "steps.LoginSteps.userClickOnTwittyHomepageButtonTweet()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user see tweet Button is disable",
+            "match": {
+              "location": "steps.TweetDataSteps.userSeeTweetButtonIsDisable()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 539000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user input on twitty homepage what\u0027s happening \"I love Indonesia\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"I love Indonesia\"",
+                  "offset": 47
+                }
+              ],
+              "location": "steps.TweetDataSteps.userInputOnTwittyHomepageWhatSHappening(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1206000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click on twitty homepage button Entertainment",
+            "match": {
+              "location": "steps.TweetDataSteps.userClickOnTwittyHomepageButtonEntertainment()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1206000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user click on tweet Button",
+            "match": {
+              "location": "steps.TweetDataSteps.userClickOnTweetButton()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tweetWithData"
+          },
+          {
+            "name": "@twitty"
+          }
+        ]
+      }
+    ],
+    "name": "Button tweet twitty",
+    "description": "",
+    "id": "button-tweet-twitty",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/tweetWithData.feature",
+    "tags": [
+      {
+        "name": "@tweetWithData",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@twitty",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 16
+        }
+      }
+    ]
+  }
+]
